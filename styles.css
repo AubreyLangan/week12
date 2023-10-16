@@ -1,0 +1,57 @@
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+#taskList {
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.list-group-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+.btn {
+    margin-right: 5px;
+}
+
+.complete-task:checked + .task-title {
+    text-decoration: line-through;
+}
+
+.btn:hover {
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+}
+
+.list-group-item:hover {
+    background-color: #f0f0f0;
+}
+
+.list-group-item .delete:hover {
+    color: #dc3545;
+}
+
+.list-group-item .edit:hover {
+    color: #17a2b8;
+}
+
+#addTask {
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s border 0.3s;
+}
+
+#addTask:hover {
+    background-color: #0056b3;
+    color: #fff;
+    border: 1px solid #0056b3;
+}
